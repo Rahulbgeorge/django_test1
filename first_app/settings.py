@@ -26,7 +26,7 @@ SECRET_KEY = '2(sr77e=9amsedljry&a#xb3(y$6i#-ugt38ddje*vl9ajv&rf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['placement-cell.herokuapp.com']
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Application definition
